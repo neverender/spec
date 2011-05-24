@@ -22,4 +22,5 @@ The output is similar to Vows with the --spec option
 - command line options
 - directories
 - async
+- more output options
 
