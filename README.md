@@ -6,11 +6,11 @@ It's currently pretty limited (no options, no directories, no async) so you prob
 
 Specs look similar to Jasmine (or RSpec) but coffeescript
 
-        require './spec'
+    require './spec'
 
-        describe 'The best thing evar!', ->
-          it "should do something", ->
-            # assert something
+    describe 'The best thing evar!', ->
+      it "should do something", ->
+        # assert something
 
 The output is similar to Vows with the --spec option
 
