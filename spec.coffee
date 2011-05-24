@@ -19,7 +19,6 @@ colors = require './colors'
       callback()
       console.log '  ✓ ' + name.green
       stack.pass.push name
-
     catch e
       if e.name == 'AssertionError'
         file = stackInfo(e.stack).file
