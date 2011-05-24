@@ -1,4 +1,4 @@
-colors = require 'colors'
+colors = require './colors'
 
 ((glob) ->
   start_time = Date.now()
@@ -58,7 +58,6 @@ colors = require 'colors'
       m = '✗' + ' Failed'.yellow.bold
     else
       m = '✓' + ' Passed'.green.bold
-    
     if not errored
       m += ' » '
       if passed then m += stack.pass.length + ' Passed'
