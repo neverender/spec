@@ -4,6 +4,10 @@ I didn't like how Vows specs look and Jasmine for node can't handle straight cof
 
 It's currently pretty limited (no options, no directories, no async) so you probably don't want to use it.
 
+Requires colors.js
+
+    npm install colors
+
 Specs look similar to Jasmine (or RSpec) but coffeescript
 
     require './spec'
