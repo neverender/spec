@@ -1,0 +1,16 @@
+{
+  "name": "spec",
+  "description": "A very small spec runner for CoffeeScript",
+  "version": "0.0.1",
+  "author": "Nicholas Bernardi <no.one.wins@gmail.com>",
+  "repository": {
+      "type": "git",
+      "url": "http://github.com/cognitive/spec.git" 
+  },
+  "keywords": ["spec", "testing", "BDD"],
+  "dependencies": {
+    "colors": ">= 0.5.0"
+  },
+  "main": "./lib/spec",
+  "engines": { "node": "0.4.x" }
+}
