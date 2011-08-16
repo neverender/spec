@@ -1,4 +1,4 @@
-# A small WIP spec runner for CoffeeScript
+# A small WIP toy spec runner for CoffeeScript
 
 I didn't like how Vows specs look and Jasmine for node can't handle straight coffeescript. And I was bored.
 
@@ -6,7 +6,7 @@ It's currently pretty limited (no options, no directories, no async) so you prob
 
 Specs look similar to Jasmine (or RSpec) but coffeescript
 
-    require './spec'
+    require 'spec'
 
     describe 'The best thing evar!', ->
       it "should do something", ->
